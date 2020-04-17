@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    min-height: 740px;
+}
+.header {
+    background-color: #fcdb00;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 590px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.social img {
+    display: block;
+}
+.social a {
+    display: inline-block;
+}
+.slogan {
+    width: 63%;
+}
+.slogan img {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #010101;
+    border-radius: 100%;
+    margin: 9px;
+    padding: 19px;
+}
+.header h2 {
+    margin-bottom: 6px;
+    font-size: 48px;
+}
+p {
+    margin-bottom: 22px;
+}
+.navigation img {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+}
+.navigation a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+.navigation a:hover {
+    background-color: #fff; 
+}
+.content_items {
+    display: flex;  
+}
+.content_items h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.content_items p {
+    width: 270px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 83px;
+}
+.ipad {
+    margin: 0px 117px;
+}
+.footer {
+    background-color: #010101;
+}
+.footer h2  {
+    color: #fcdb00;
+}
+.footer p, .content_items p {
+     color: #8b8a8b;
+}
+.email {
+    width: 560px;
+    height: 50px;
+    color: #8b8a8b;
+    padding: 16px 17px 17px 19px;
+    border: none;
+    border-radius: 3px;
+}
+.submit {
+    width: 174px;
+    height: 50px;
+    background-color: #fcdb00;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 14px 21px 13px 18px; 
+} 
+.footer_items {
+    list-style-type: none;
+    display: flex;
+/*    justify-content: space-between;*/
+    margin-top: 103px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+li:first-child {
+    width: 367px;
+    height: 155px;
+}
+li {
+    width: 77px;
+    height: 155px;
+    margin-left: 116px; 
+    text-align: left; 
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
